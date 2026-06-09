@@ -44,6 +44,43 @@ local modes = {
     t = "TERMINAL",
 }
 
+local filetype_icons = {
+    lua = "",
+    zig = "",
+    rust = "",
+    javascript = "",
+    typescript = "",
+    javascriptreact = "",
+    typescriptreact = "",
+    python = "",
+    go = "",
+    c = "",
+    cpp = "",
+    java = "",
+    ruby = "",
+    php = "",
+    html = "",
+    css = "",
+    scss = "",
+    json = "",
+    yaml = "",
+    yml = "",
+    toml = "",
+    markdown = "",
+    vim = "",
+    vimdoc = "",
+    sh = "",
+    bash = "",
+    zsh = "",
+    fish = "",
+    gitcommit = "",
+    gitrebase = "",
+    nix = "",
+    make = "",
+    cmake = "",
+    dockerfile = "",
+}
+
 local mode_colors = {
     NORMAL = { group = "StatusLineModeNormal", fg = "#000000", bg = "#eeeeee" },
     INSERT = { group = "StatusLineModeInsert", fg = "#000000", bg = "#b8b8b8" },
@@ -262,6 +299,8 @@ local function project_markers()
         "pyproject.toml",
         "flake.nix",
         "stylua.toml",
+        "build.zig",
+        "build.zig.zon",
     }
 end
 
@@ -405,8 +444,18 @@ local function diagnostics_component()
     return table.concat(parts, "  ")
 end
 
-local function filetype_component()
+local function filetype_component(width)
     local filetype = vim.bo.filetype ~= "" and vim.bo.filetype or "plain"
+    local icon = filetype_icons[filetype]
+
+    if icon and width < 100 then
+        return "%#StatusLineMuted#" .. icon
+    end
+
+    if icon then
+        return "%#StatusLineMuted#" .. icon .. " " .. esc(filetype)
+    end
+
     return "%#StatusLineMuted#" .. esc(filetype)
 end
 
@@ -428,7 +477,7 @@ local function right_components(width)
     end
 
     if width >= 72 then
-        parts[#parts + 1] = filetype_component()
+        parts[#parts + 1] = filetype_component(width)
     end
 
     parts[#parts + 1] = location_component()
