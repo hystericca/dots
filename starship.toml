@@ -72,6 +72,10 @@ style = "muted"
 symbol = " "
 style = "muted"
 
+[zig]
+symbol = " "
+style = "muted"
+
 [custom.ant]
 when = '''test -f ant.lockb || (test -f package.json && jq -e '.scripts // {} | to_entries[]? | .value | test("(^|[[:space:]])ant([[:space:]]|$)")' package.json >/dev/null 2>&1)'''
 command = '''ant --version 2>/dev/null | perl -pe 's/\e\[[0-9;]*[A-Za-z]//g' | awk '/released/ { split($1, v, "."); print "v" v[1] "." v[2] "." v[3]; exit }' '''

@@ -2,8 +2,6 @@ vim.g.mapleader = " "
 vim.g.maplocalleader = " "
 
 -- TODO: not have this anymore
-vim.cmd.syntax("on")
-vim.cmd.filetype("plugin indent on")
 
 -- autoread
 vim.opt.autoread = true
