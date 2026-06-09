@@ -1,0 +1,90 @@
+"$schema" = "https://starship.rs/config-schema.json"
+format = "$directory$git_branch$git_status$package$c$cpp$rust$lua$typst$python$bun$custom$cmd_duration$line_break$character"
+add_newline = true
+palette = "mina"
+
+[palettes.mina]
+black = "#000000"
+base = "#111111"
+surface = "#242424"
+muted = "#666666"
+subtle = "#888888"
+text = "#d8d8d8"
+bright = "#ffffff"
+
+[directory]
+read_only = " 󰌾"
+format = "[$path]($style)[$read_only]($read_only_style) "
+style = "bright"
+read_only_style = "muted"
+truncation_length = 3
+truncate_to_repo = true
+
+[git_branch]
+symbol = " "
+format = "on [$symbol$branch(:$remote_branch)]($style) "
+style = "subtle"
+
+[git_status]
+format = "[$all_status$ahead_behind]($style) "
+style = "muted"
+conflicted = "!"
+ahead = "⇡${count}"
+behind = "⇣${count}"
+diverged = "⇕⇡${ahead_count}⇣${behind_count}"
+up_to_date = ""
+untracked = "?${count}"
+stashed = "$${count}"
+modified = "!${count}"
+staged = "+${count}"
+renamed = "»${count}"
+deleted = "✘${count}"
+
+[package]
+symbol = "󰏗 "
+style = "muted"
+
+[c]
+symbol = " "
+style = "text"
+
+[cpp]
+symbol = " "
+style = "text"
+
+[rust]
+symbol = "󱘗 "
+style = "text"
+
+[lua]
+symbol = " "
+style = "muted"
+
+[typst]
+symbol = " "
+style = "muted"
+
+[python]
+symbol = " "
+style = "muted"
+
+[bun]
+symbol = " "
+style = "muted"
+
+[custom.ant]
+when = '''test -f ant.lockb || (test -f package.json && jq -e '.scripts // {} | to_entries[]? | .value | test("(^|[[:space:]])ant([[:space:]]|$)")' package.json >/dev/null 2>&1)'''
+command = '''ant --version 2>/dev/null | perl -pe 's/\e\[[0-9;]*[A-Za-z]//g' | awk '/released/ { split($1, v, "."); print "v" v[1] "." v[2] "." v[3]; exit }' '''
+format = "via [$symbol$output]($style) "
+symbol = "🐜︎ "
+style = "muted"
+
+[cmd_duration]
+min_time = 2000
+format = "took [$duration]($style) "
+style = "muted"
+
+[character]
+success_symbol = "[❯](bright)"
+error_symbol = "[❯](bright bold)"
+vimcmd_symbol = "[❮](subtle)"

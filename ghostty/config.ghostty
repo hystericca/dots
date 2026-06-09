@@ -1,0 +1,17 @@
+theme = Mina Lowlight
+font-family = JetBrainsMono Nerd Font Mono
+font-size = 16
+font-thicken = false
+font-thicken-strength = 60
+
+macos-titlebar-style = tabs
+macos-option-as-alt = left
+
+auto-update = download
+auto-update-channel = tip
+
+background-opacity = 1
+background-blur-radius = 0
+
+custom-shader = /Users/hystericca/.config/ghostty/shaders/cursor-warp.glsl
+custom-shader-animation = true
