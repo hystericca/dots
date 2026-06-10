@@ -1,0 +1,2018 @@
+{
+  "name": "kanso-zen",
+  "description": "Kanso Zen",
+  "type": "dark",
+  "editor": {
+    "fg": {
+      "color": "#e8e8e8",
+      "alpha": 0
+    },
+    "bg": {
+      "color": "#000000",
+      "alpha": 0
+    },
+    "fs": null
+  },
+  "editor_cursor": {
+    "fg": {
+      "color": "#090E13",
+      "alpha": 255
+    },
+    "bg": {
+      "color": "#C5C9C7",
+      "alpha": 255
+    },
+    "fs": null
+  },
+  "editor_cursor_primary": {
+    "fg": {
+      "color": "#ffffff",
+      "alpha": 255
+    },
+    "bg": {
+      "color": "#AEAFAD",
+      "alpha": 255
+    },
+    "fs": null
+  },
+  "editor_cursor_secondary": {
+    "fg": {
+      "color": "#090E13",
+      "alpha": 255
+    },
+    "bg": {
+      "color": "#AEAFAD",
+      "alpha": 255
+    },
+    "fs": null
+  },
+  "editor_line_highlight": {
+    "fg": {
+      "color": "#C5C9C7",
+      "alpha": 255
+    },
+    "bg": {
+      "color": "#22262D",
+      "alpha": 255
+    },
+    "fs": null
+  },
+  "editor_error": {
+    "fg": {
+      "color": "#E82424",
+      "alpha": 255
+    },
+    "bg": {
+      "color": "#090E13",
+      "alpha": 255
+    },
+    "fs": null
+  },
+  "editor_warning": {
+    "fg": {
+      "color": "#FF9E3B",
+      "alpha": 255
+    },
+    "bg": {
+      "color": "#090E13",
+      "alpha": 255
+    },
+    "fs": null
+  },
+  "editor_information": {
+    "fg": {
+      "color": "#3794FF",
+      "alpha": 255
+    },
+    "bg": {
+      "color": "#090E13",
+      "alpha": 255
+    },
+    "fs": null
+  },
+  "editor_hint": {
+    "fg": {
+      "color": "#EEEEEE",
+      "alpha": 179
+    },
+    "bg": {
+      "color": "#090E13",
+      "alpha": 255
+    },
+    "fs": null
+  },
+  "editor_match": {
+    "fg": {
+      "color": "#C5C9C7",
+      "alpha": 255
+    },
+    "bg": {
+      "color": "#2D4F67",
+      "alpha": 255
+    },
+    "fs": null
+  },
+  "editor_selection": {
+    "fg": {
+      "color": "#C5C9C7",
+      "alpha": 255
+    },
+    "bg": {
+      "color": "#22262D",
+      "alpha": 255
+    },
+    "fs": null
+  },
+  "editor_whitespace": {
+    "fg": {
+      "color": "#090E13",
+      "alpha": 255
+    },
+    "bg": {
+      "color": "#090E13",
+      "alpha": 255
+    },
+    "fs": null
+  },
+  "editor_gutter": {
+    "fg": {
+      "color": "#5C6066",
+      "alpha": 255
+    },
+    "bg": {
+      "color": "#090E13",
+      "alpha": 255
+    },
+    "fs": null
+  },
+  "editor_gutter_active": {
+    "fg": {
+      "color": "#C5C9C7",
+      "alpha": 255
+    },
+    "bg": {
+      "color": "#090E13",
+      "alpha": 255
+    },
+    "fs": null
+  },
+  "editor_gutter_modified": {
+    "fg": {
+      "color": "#DCA561",
+      "alpha": 255
+    },
+    "bg": {
+      "color": "#090E13",
+      "alpha": 255
+    },
+    "fs": null
+  },
+  "editor_gutter_added": {
+    "fg": {
+      "color": "#76946A",
+      "alpha": 255
+    },
+    "bg": {
+      "color": "#090E13",
+      "alpha": 255
+    },
+    "fs": null
+  },
+  "editor_gutter_deleted": {
+    "fg": {
+      "color": "#C34043",
+      "alpha": 255
+    },
+    "bg": {
+      "color": "#090E13",
+      "alpha": 255
+    },
+    "fs": null
+  },
+  "editor_widget": {
+    "fg": {
+      "color": "#C5C9C7",
+      "alpha": 255
+    },
+    "bg": {
+      "color": "#090E13",
+      "alpha": 255
+    },
+    "fs": null
+  },
+  "editor_widget_border": {
+    "fg": {
+      "color": "#C5C9C7",
+      "alpha": 255
+    },
+    "bg": {
+      "color": "#454545",
+      "alpha": 255
+    },
+    "fs": null
+  },
+  "statusbar": {
+    "fg": {
+      "color": "#C5C9C7",
+      "alpha": 255
+    },
+    "bg": {
+      "color": "#090E13",
+      "alpha": 255
+    },
+    "fs": null
+  },
+  "statusbar_hover": {
+    "fg": {
+      "color": "#C5C9C7",
+      "alpha": 255
+    },
+    "bg": {
+      "color": "#1C1E25",
+      "alpha": 255
+    },
+    "fs": null
+  },
+  "scrollbar": {
+    "fg": {
+      "color": "#393B42",
+      "alpha": 136
+    },
+    "bg": {
+      "color": "#090E13",
+      "alpha": 255
+    },
+    "fs": null
+  },
+  "scrollbar_hover": {
+    "fg": {
+      "color": "#393B42",
+      "alpha": 136
+    },
+    "bg": {
+      "color": "#090E13",
+      "alpha": 255
+    },
+    "fs": null
+  },
+  "scrollbar_active": {
+    "fg": {
+      "color": "#393B42",
+      "alpha": 136
+    },
+    "bg": {
+      "color": "#090E13",
+      "alpha": 255
+    },
+    "fs": null
+  },
+  "sidebar": {
+    "fg": {
+      "color": "#C5C9C7",
+      "alpha": 255
+    },
+    "bg": {
+      "color": "#090E13",
+      "alpha": 255
+    },
+    "fs": null
+  },
+  "panel": {
+    "fg": {
+      "color": "#C5C9C7",
+      "alpha": 255
+    },
+    "bg": {
+      "color": "#090E13",
+      "alpha": 255
+    },
+    "fs": null
+  },
+  "input": {
+    "fg": {
+      "color": "#C5C9C7",
+      "alpha": 255
+    },
+    "bg": {
+      "color": "#1C1E25",
+      "alpha": 255
+    },
+    "fs": null
+  },
+  "input_border": {
+    "fg": {
+      "color": "#C5C9C7",
+      "alpha": 255
+    },
+    "bg": {
+      "color": "#1C1E25",
+      "alpha": 255
+    },
+    "fs": null
+  },
+  "input_placeholder": {
+    "fg": {
+      "color": "#C5C9C7",
+      "alpha": 128
+    },
+    "bg": {
+      "color": "#1C1E25",
+      "alpha": 255
+    },
+    "fs": null
+  },
+  "input_option_active": {
+    "fg": {
+      "color": "#FFFFFF",
+      "alpha": 255
+    },
+    "bg": {
+      "color": "#007FD4",
+      "alpha": 102
+    },
+    "fs": null
+  },
+  "input_option_hover": {
+    "fg": {
+      "color": "#C5C9C7",
+      "alpha": 255
+    },
+    "bg": {
+      "color": "#5A5D5E",
+      "alpha": 128
+    },
+    "fs": null
+  },
+  "tab_active": {
+    "fg": {
+      "color": "#C5C9C7",
+      "alpha": 255
+    },
+    "bg": {
+      "color": "#090E13",
+      "alpha": 255
+    },
+    "fs": null
+  },
+  "tab_inactive": {
+    "fg": {
+      "color": "#C5C9C7",
+      "alpha": 128
+    },
+    "bg": {
+      "color": "#090E13",
+      "alpha": 255
+    },
+    "fs": null
+  },
+  "tab_selected": {
+    "fg": {
+      "color": "#C5C9C7",
+      "alpha": 255
+    },
+    "bg": {
+      "color": "#090E13",
+      "alpha": 255
+    },
+    "fs": null
+  },
+  "tab_unfocused_active": {
+    "fg": {
+      "color": "#C5C9C7",
+      "alpha": 128
+    },
+    "bg": {
+      "color": "#C5C9C7",
+      "alpha": 128
+    },
+    "fs": null
+  },
+  "tab_unfocused_inactive": {
+    "fg": {
+      "color": "#C5C9C7",
+      "alpha": 128
+    },
+    "bg": {
+      "color": "#C5C9C7",
+      "alpha": 255
+    },
+    "fs": null
+  },
+  "ansi_black": {
+    "color": "#1C1E25",
+    "alpha": 255
+  },
+  "ansi_red": {
+    "color": "#C4746E",
+    "alpha": 255
+  },
+  "ansi_green": {
+    "color": "#8A9A7B",
+    "alpha": 255
+  },
+  "ansi_yellow": {
+    "color": "#C4B28A",
+    "alpha": 255
+  },
+  "ansi_blue": {
+    "color": "#8BA4B0",
+    "alpha": 255
+  },
+  "ansi_magenta": {
+    "color": "#A292A3",
+    "alpha": 255
+  },
+  "ansi_cyan": {
+    "color": "#8EA4A2",
+    "alpha": 255
+  },
+  "ansi_white": {
+    "color": "#C5C9C7",
+    "alpha": 255
+  },
+  "ansi_bright_black": {
+    "color": "#9E9B93",
+    "alpha": 255
+  },
+  "ansi_bright_red": {
+    "color": "#E46876",
+    "alpha": 255
+  },
+  "ansi_bright_green": {
+    "color": "#87A987",
+    "alpha": 255
+  },
+  "ansi_bright_yellow": {
+    "color": "#E6C384",
+    "alpha": 255
+  },
+  "ansi_bright_blue": {
+    "color": "#7FB4CA",
+    "alpha": 255
+  },
+  "ansi_bright_magenta": {
+    "color": "#938AA9",
+    "alpha": 255
+  },
+  "ansi_bright_cyan": {
+    "color": "#7AA89F",
+    "alpha": 255
+  },
+  "ansi_bright_white": {
+    "color": "#C5C9C7",
+    "alpha": 255
+  },
+  "ansi_palette": [
+    "\u001c\u001e%",
+    [
+      196,
+      116,
+      110
+    ],
+    [
+      138,
+      154,
+      123
+    ],
+    [
+      196,
+      178,
+      138
+    ],
+    [
+      139,
+      164,
+      176
+    ],
+    [
+      162,
+      146,
+      163
+    ],
+    [
+      142,
+      164,
+      162
+    ],
+    [
+      197,
+      201,
+      199
+    ],
+    [
+      158,
+      155,
+      147
+    ],
+    [
+      228,
+      104,
+      118
+    ],
+    [
+      135,
+      169,
+      135
+    ],
+    [
+      230,
+      195,
+      132
+    ],
+    [
+      127,
+      180,
+      202
+    ],
+    [
+      147,
+      138,
+      169
+    ],
+    [
+      122,
+      168,
+      159
+    ],
+    [
+      197,
+      201,
+      199
+    ]
+  ],
+  "tokens": [
+    {
+      "scope": "*link*",
+      "style": {
+        "fg": null,
+        "bg": null,
+        "fs": "underline"
+      }
+    },
+    {
+      "scope": "*uri*",
+      "style": {
+        "fg": null,
+        "bg": null,
+        "fs": "underline"
+      }
+    },
+    {
+      "scope": "*url*",
+      "style": {
+        "fg": null,
+        "bg": null,
+        "fs": "underline"
+      }
+    },
+    {
+      "scope": "JSXNested",
+      "style": {
+        "fg": {
+          "color": "#C5C9C7",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "comment",
+      "style": {
+        "fg": {
+          "color": "#75797F",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "constant.character",
+      "style": {
+        "fg": {
+          "color": "#B6927B",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "constant.character.escape",
+      "style": {
+        "fg": {
+          "color": "#949FB5",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "constant.escape",
+      "style": {
+        "fg": {
+          "color": "#B6927B",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "constant.language",
+      "style": {
+        "fg": {
+          "color": "#B6927B",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "constant.language.boolean",
+      "style": {
+        "fg": {
+          "color": "#B6927B",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "constant.numeric",
+      "style": {
+        "fg": {
+          "color": "#A292A3",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "constant.other.color",
+      "style": {
+        "fg": {
+          "color": "#8992A7",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "constant.other.key",
+      "style": {
+        "fg": {
+          "color": "#8A9A7B",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "constant.other.object.key.js",
+      "style": {
+        "fg": {
+          "color": "#C4746E",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "constant.other.placeholder",
+      "style": {
+        "fg": {
+          "color": "#C5C9C7",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "constant.other.reference.link.markdown",
+      "style": {
+        "fg": {
+          "color": "#C4B28A",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "constant.other.symbol",
+      "style": {
+        "fg": {
+          "color": "#8A9A7B",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "entity.name",
+      "style": {
+        "fg": {
+          "color": "#8EA4A2",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "entity.name.function",
+      "style": {
+        "fg": {
+          "color": "#8BA4B0",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "entity.name.function.js",
+      "style": {
+        "fg": {
+          "color": "#949FB5",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "entity.name.function.macro",
+      "style": {
+        "fg": {
+          "color": "#C4746E",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "entity.name.import.go",
+      "style": {
+        "fg": {
+          "color": "#8A9A7B",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "entity.name.method.js",
+      "style": {
+        "fg": {
+          "color": "#949FB5",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "entity.name.module.js",
+      "style": {
+        "fg": {
+          "color": "#C4746E",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "entity.name.namespace",
+      "style": {
+        "fg": {
+          "color": "#C4B28A",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "entity.name.section.markdown",
+      "style": {
+        "fg": {
+          "color": "#8BA4B0",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "entity.name.tag",
+      "style": {
+        "fg": {
+          "color": "#C4B28A",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "entity.name.tag.js",
+      "style": {
+        "fg": {
+          "color": "#8992A7",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "entity.name.type.module",
+      "style": {
+        "fg": {
+          "color": "#C4B28A",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "entity.other.attribute-name",
+      "style": {
+        "fg": {
+          "color": "#8992A7",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "entity.other.attribute-name.class",
+      "style": {
+        "fg": {
+          "color": "#C4B28A",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "entity.other.inherited-class",
+      "style": {
+        "fg": {
+          "color": "#8A9A7B",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "invalid",
+      "style": {
+        "fg": {
+          "color": "#E82424",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "invalid.illegal",
+      "style": {
+        "fg": {
+          "color": "#E82424",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "keyword.blade",
+      "style": {
+        "fg": {
+          "color": "#8992A7",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "keyword.control",
+      "style": {
+        "fg": {
+          "color": "#949FB5",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "keyword.control.conditional",
+      "style": {
+        "fg": {
+          "color": "#8992A7",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": "bold"
+      }
+    },
+    {
+      "scope": "keyword.control.flow",
+      "style": {
+        "fg": {
+          "color": "#8992A7",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": "bold"
+      }
+    },
+    {
+      "scope": "keyword.control.import",
+      "style": {
+        "fg": {
+          "color": "#9E9B93",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "keyword.control.loop",
+      "style": {
+        "fg": {
+          "color": "#8992A7",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": "bold"
+      }
+    },
+    {
+      "scope": "keyword.control.trycatch",
+      "style": {
+        "fg": {
+          "color": "#C4746E",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": "bold"
+      }
+    },
+    {
+      "scope": "keyword.import",
+      "style": {
+        "fg": {
+          "color": "#9E9B93",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "keyword.operator",
+      "style": {
+        "fg": {
+          "color": "#C4B28A",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "keyword.operator.namespace",
+      "style": {
+        "fg": {
+          "color": "#9E9B93",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "keyword.operator.type.annotation",
+      "style": {
+        "fg": {
+          "color": "#9E9B93",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "keyword.other",
+      "style": {
+        "fg": {
+          "color": "#8992A7",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "keyword.other.definition.ini",
+      "style": {
+        "fg": {
+          "color": "#B6927B",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "keyword.other.special-method",
+      "style": {
+        "fg": {
+          "color": "#949FB5",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "keyword.other.substitution",
+      "style": {
+        "fg": {
+          "color": "#8992A7",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "keyword.other.template",
+      "style": {
+        "fg": {
+          "color": "#8992A7",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "keyword.other.unit",
+      "style": {
+        "fg": {
+          "color": "#C4B28A",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "markdown.heading",
+      "style": {
+        "fg": {
+          "color": "#8BA4B0",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "markup.bold",
+      "style": {
+        "fg": {
+          "color": "#C4746E",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": "bold"
+      }
+    },
+    {
+      "scope": "markup.changed",
+      "style": {
+        "fg": {
+          "color": "#DCA561",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "markup.deleted",
+      "style": {
+        "fg": {
+          "color": "#C34043",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "markup.heading",
+      "style": {
+        "fg": {
+          "color": "#8A9A7B",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "markup.heading.markdown",
+      "style": {
+        "fg": {
+          "color": "#8BA4B0",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "markup.inline.raw.markdown",
+      "style": {
+        "fg": {
+          "color": "#8992A7",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "markup.inline.raw.string",
+      "style": {
+        "fg": {
+          "color": "#8A9A7B",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "markup.inserted",
+      "style": {
+        "fg": {
+          "color": "#76946A",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "markup.inserted.git_gutter",
+      "style": {
+        "fg": {
+          "color": "#8A9A7B",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "markup.italic",
+      "style": {
+        "fg": {
+          "color": "#C4746E",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": "bold"
+      }
+    },
+    {
+      "scope": "markup.quote",
+      "style": {
+        "fg": null,
+        "bg": null,
+        "fs": "italic"
+      }
+    },
+    {
+      "scope": "markup.raw.block",
+      "style": {
+        "fg": {
+          "color": "#8992A7",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "markup.raw.block.fenced.markdown",
+      "style": {
+        "fg": {
+          "color": "#C5C9C7",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "markup.table",
+      "style": {
+        "fg": {
+          "color": "#C5C9C7",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "markup.underline",
+      "style": {
+        "fg": {
+          "color": "#949FB5",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": "underline"
+      }
+    },
+    {
+      "scope": "meta.block",
+      "style": {
+        "fg": {
+          "color": "#C5C9C7",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "meta.brace",
+      "style": {
+        "fg": {
+          "color": "#9E9B93",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "meta.class-method.js",
+      "style": {
+        "fg": {
+          "color": "#949FB5",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "meta.function-call",
+      "style": {
+        "fg": {
+          "color": "#8BA4B0",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "meta.group.braces.curly",
+      "style": {
+        "fg": {
+          "color": "#8A9A7B",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "meta.import",
+      "style": {
+        "fg": {
+          "color": "#9E9B93",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "meta.jsx.children",
+      "style": {
+        "fg": {
+          "color": "#C5C9C7",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "meta.separator",
+      "style": {
+        "fg": {
+          "color": "#9E9B93",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": "bold"
+      }
+    },
+    {
+      "scope": "meta.structure.dictionary.json",
+      "style": {
+        "fg": {
+          "color": "#8A9A7B",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "meta.structure.dictionary.value.json",
+      "style": {
+        "fg": {
+          "color": "#8A9A7B",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "meta.tag",
+      "style": {
+        "fg": {
+          "color": "#C5C9C7",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "meta.tag.sgml",
+      "style": {
+        "fg": {
+          "color": "#C4B28A",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "meta.use.php",
+      "style": {
+        "fg": {
+          "color": "#8EA4A2",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "punctuation",
+      "style": {
+        "fg": {
+          "color": "#9E9B93",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "punctuation.definition.blockquote.markdown",
+      "style": {
+        "fg": {
+          "color": "#5C6066",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "punctuation.definition.comment",
+      "style": {
+        "fg": {
+          "color": "#75797F",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "punctuation.definition.fenced.markdown",
+      "style": {
+        "fg": {
+          "color": "#5C6066",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "punctuation.definition.list_item.markdown",
+      "style": {
+        "fg": {
+          "color": "#C5C9C7",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "punctuation.definition.raw.markdown",
+      "style": {
+        "fg": {
+          "color": "#8992A7",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "punctuation.definition.string",
+      "style": {
+        "fg": {
+          "color": "#8A9A7B",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "punctuation.definition.tag",
+      "style": {
+        "fg": {
+          "color": "#9E9B93",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "punctuation.definition.tag.begin.html",
+      "style": {
+        "fg": {
+          "color": "#9E9B93",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "punctuation.definition.tag.end.html",
+      "style": {
+        "fg": {
+          "color": "#9E9B93",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "punctuation.definition.tag.html",
+      "style": {
+        "fg": {
+          "color": "#9E9B93",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "punctuation.definition.tag.js",
+      "style": {
+        "fg": {
+          "color": "#8992A7",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "punctuation.section.class.end",
+      "style": {
+        "fg": {
+          "color": "#C5C9C7",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "punctuation.section.embedded",
+      "style": {
+        "fg": {
+          "color": "#9E9B93",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "punctuation.separator.inheritance.php",
+      "style": {
+        "fg": {
+          "color": "#9E9B93",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "source.css",
+      "style": {
+        "fg": {
+          "color": "#8EA4A2",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "source.js",
+      "style": {
+        "fg": {
+          "color": "#C4746E",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "source.json",
+      "style": {
+        "fg": {
+          "color": "#8A9A7B",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "source.less",
+      "style": {
+        "fg": {
+          "color": "#8EA4A2",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "source.postcss",
+      "style": {
+        "fg": {
+          "color": "#8EA4A2",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "source.sass",
+      "style": {
+        "fg": {
+          "color": "#949FB5",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "source.scss",
+      "style": {
+        "fg": {
+          "color": "#8EA4A2",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "source.stylus",
+      "style": {
+        "fg": {
+          "color": "#8EA4A2",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "storage.modifier",
+      "style": {
+        "fg": {
+          "color": "#8992A7",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "storage.type",
+      "style": {
+        "fg": {
+          "color": "#8992A7",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "string",
+      "style": {
+        "fg": {
+          "color": "#C4746E",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": "bold"
+      }
+    },
+    {
+      "scope": "string.other.link",
+      "style": {
+        "fg": {
+          "color": "#949FB5",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "string.other.link.description.title.markdown",
+      "style": {
+        "fg": {
+          "color": "#8992A7",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "string.other.link.title.markdown",
+      "style": {
+        "fg": {
+          "color": "#B6927B",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "string.regexp",
+      "style": {
+        "fg": {
+          "color": "#B98D7B",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "string.unquoted.label.js",
+      "style": {
+        "fg": {
+          "color": "#C4746E",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "support.class",
+      "style": {
+        "fg": {
+          "color": "#8EA4A2",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "support.constant",
+      "style": {
+        "fg": {
+          "color": "#B6927B",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "support.function",
+      "style": {
+        "fg": {
+          "color": "#8BA4B0",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "support.other.namespace.php",
+      "style": {
+        "fg": {
+          "color": "#8EA4A2",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "support.other.namespace.use.php",
+      "style": {
+        "fg": {
+          "color": "#8EA4A2",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "support.other.variable",
+      "style": {
+        "fg": {
+          "color": "#C5C9C7",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "support.type",
+      "style": {
+        "fg": {
+          "color": "#8EA4A2",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "support.type.property-name",
+      "style": {
+        "fg": {
+          "color": "#8EA4A2",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "support.type.property-name.json",
+      "style": {
+        "fg": {
+          "color": "#8A9A7B",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "support.type.sys-types",
+      "style": {
+        "fg": {
+          "color": "#8EA4A2",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "tag.decorator.js",
+      "style": {
+        "fg": {
+          "color": "#8992A7",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "text.html",
+      "style": {
+        "fg": {
+          "color": "#C5C9C7",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "text.html.markdown",
+      "style": {
+        "fg": {
+          "color": "#8992A7",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "text.log",
+      "style": {
+        "fg": {
+          "color": "#C5C9C7",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "variable",
+      "style": {
+        "fg": {
+          "color": "#C5C9C7",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "variable.function",
+      "style": {
+        "fg": {
+          "color": "#8BA4B0",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "variable.function.constructor",
+      "style": {
+        "fg": {
+          "color": "#949FB5",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "variable.import.parameter.js",
+      "style": {
+        "fg": {
+          "color": "#C4746E",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "variable.language",
+      "style": {
+        "fg": {
+          "color": "#C4746E",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "variable.language.fenced.markdown",
+      "style": {
+        "fg": {
+          "color": "#5C6066",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "variable.other",
+      "style": {
+        "fg": {
+          "color": "#C5C9C7",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "variable.other.class.js",
+      "style": {
+        "fg": {
+          "color": "#C4746E",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "variable.other.enummember",
+      "style": {
+        "fg": {
+          "color": "#B6927B",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "variable.other.property",
+      "style": {
+        "fg": {
+          "color": "#C4B28A",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    }
+  ]
+}

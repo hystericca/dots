@@ -7,18 +7,117 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
-  "disable_ai": true,
-  "session": {
-    "trust_all_worktrees": true
-  },
-  "vim_mode": true,
-  "base_keymap": "Emacs",
-  "icon_theme": "Zed (Default)",
-  "ui_font_size": 16,
-  "buffer_font_size": 15,
-  "theme": {
-    "mode": "dark",
-    "light": "Ayu Light",
-    "dark": "Ayu Dark",
-  },
+    "buffer_line_height": "comfortable",
+    "indent_guides": {
+        "enabled": true,
+        "coloring": "indent_aware",
+    },
+    "status_bar": {
+        "active_encoding_button": "non_utf8",
+    },
+    "title_bar": {
+        "show_menus": false,
+        "show_branch_status_icon": false,
+    },
+    "auto_install_extensions": {
+        "tsgo": true,
+    },
+    "outline_panel": {
+        "dock": "left",
+    },
+    "project_panel": {
+        "dock": "left",
+    },
+    "disable_ai": true,
+    "base_keymap": "Emacs",
+    "vim": {
+        "toggle_relative_line_numbers": true,
+    },
+    "buffer_font_family": "JetBrainsMono Nerd Font",
+    "session": {
+        "trust_all_worktrees": true,
+    },
+    "vim_mode": true,
+    "icon_theme": {
+        "mode": "dark",
+        "light": "Zed (Default)",
+        "dark": "Zed (Default)",
+    },
+    "ui_font_size": 16.0,
+    "buffer_font_size": 18.0,
+    "theme": {
+        "mode": "dark",
+        "light": "Mina Light",
+        "dark": "Lowlight Dark",
+    },
+    "lsp": {
+        "ruff": {
+            "initialization_options": {
+                "settings": {
+                    "lint": {
+                        "extendSelect": ["I"],
+                    },
+                },
+            },
+        },
+        "tsgo": {
+            "settings": {
+                "package_version": "7.0.0-dev.20260421.2",
+            },
+        },
+    },
+    "languages": {
+        "Python": {
+            "language_servers": ["ty", "ruff", "!basedpyright"],
+            "code_actions_on_format": {
+                "source.organizeImports.ruff": true,
+                "source.fixAll.ruff": true,
+            },
+            "formatter": {
+                "language_server": {
+                    "name": "ruff",
+                },
+            },
+        },
+        "TypeScript": {
+            "language_servers": [
+                "tsgo",
+                "!vtsls",
+                "!typescript-language-server",
+                "...",
+            ],
+            "tab_size": 4,
+        },
+        "TSX": {
+            "language_servers": [
+                "tsgo",
+                "!vtsls",
+                "!typescript-language-server",
+                "...",
+            ],
+            "tab_size": 4,
+        },
+        "JavaScript": {
+            "language_servers": [
+                "tsgo",
+                "!vtsls",
+                "!typescript-language-server",
+                "...",
+            ],
+            "tab_size": 4,
+        },
+        "JSX": {
+            "language_servers": [
+                "tsgo",
+                "!vtsls",
+                "!typescript-language-server",
+                "...",
+            ],
+            "tab_size": 4,
+        },
+    },
+    "prettier": {
+        "allowed": true,
+        "tabWidth": 4,
+    },
 }

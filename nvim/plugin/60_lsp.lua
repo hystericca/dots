@@ -286,14 +286,17 @@ vim.lsp.config("biome", {
 
 vim.lsp.config("clangd", {
     cmd = {
+        "xcrun",
         "clangd",
         "--background-index",
         "--clang-tidy",
-        "--fallback-style={BasedOnStyle: LLVM, IndentWidth: 4, TabWidth: 4, UseTab: Never}",
+        "--fallback-style={BasedOnStyle: LLVM, IndentWidth: 4, TabWidth: 4, UseTab: Always}",
+        "--query-driver=/usr/bin/clang++,/Applications/Xcode*.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
     },
     filetypes = {
         "c",
         "cpp",
+        "cc",
         "objc",
         "objcpp",
         "cuda",

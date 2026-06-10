@@ -1,0 +1,2034 @@
+{
+  "name": "mina-lowlight",
+  "description": "Mina Lowlight Dark",
+  "type": "dark",
+  "editor": {
+    "fg": {
+      "color": "#EEEEEE",
+      "alpha": 255
+    },
+    "bg": {
+      "color": "#000000",
+      "alpha": 255
+    },
+    "fs": null
+  },
+  "editor_cursor": {
+    "fg": {
+      "color": "#000000",
+      "alpha": 255
+    },
+    "bg": {
+      "color": "#EEEEEE",
+      "alpha": 255
+    },
+    "fs": null
+  },
+  "editor_cursor_primary": {
+    "fg": {
+      "color": "#000000",
+      "alpha": 255
+    },
+    "bg": {
+      "color": "#FFFFFF",
+      "alpha": 255
+    },
+    "fs": null
+  },
+  "editor_cursor_secondary": {
+    "fg": {
+      "color": "#000000",
+      "alpha": 255
+    },
+    "bg": {
+      "color": "#888888",
+      "alpha": 255
+    },
+    "fs": null
+  },
+  "editor_line_highlight": {
+    "fg": {
+      "color": "#EEEEEE",
+      "alpha": 255
+    },
+    "bg": {
+      "color": "#111111",
+      "alpha": 255
+    },
+    "fs": null
+  },
+  "editor_error": {
+    "fg": {
+      "color": "#D70000",
+      "alpha": 255
+    },
+    "bg": {
+      "color": "#D70000",
+      "alpha": 26
+    },
+    "fs": null
+  },
+  "editor_warning": {
+    "fg": {
+      "color": "#FFAA88",
+      "alpha": 255
+    },
+    "bg": {
+      "color": "#FFAA88",
+      "alpha": 26
+    },
+    "fs": null
+  },
+  "editor_information": {
+    "fg": {
+      "color": "#7788AA",
+      "alpha": 255
+    },
+    "bg": {
+      "color": "#7788AA",
+      "alpha": 26
+    },
+    "fs": null
+  },
+  "editor_hint": {
+    "fg": {
+      "color": "#789978",
+      "alpha": 255
+    },
+    "bg": {
+      "color": "#789978",
+      "alpha": 26
+    },
+    "fs": null
+  },
+  "editor_match": {
+    "fg": {
+      "color": "#EEEEEE",
+      "alpha": 255
+    },
+    "bg": {
+      "color": "#444444",
+      "alpha": 102
+    },
+    "fs": null
+  },
+  "editor_selection": {
+    "fg": {
+      "color": "#EEEEEE",
+      "alpha": 255
+    },
+    "bg": {
+      "color": "#444444",
+      "alpha": 102
+    },
+    "fs": null
+  },
+  "editor_whitespace": {
+    "fg": {
+      "color": "#333333",
+      "alpha": 255
+    },
+    "bg": {
+      "color": "#000000",
+      "alpha": 255
+    },
+    "fs": null
+  },
+  "editor_gutter": {
+    "fg": {
+      "color": "#5F5F5F",
+      "alpha": 255
+    },
+    "bg": {
+      "color": "#000000",
+      "alpha": 255
+    },
+    "fs": null
+  },
+  "editor_gutter_active": {
+    "fg": {
+      "color": "#FFFFFF",
+      "alpha": 255
+    },
+    "bg": {
+      "color": "#000000",
+      "alpha": 255
+    },
+    "fs": null
+  },
+  "editor_gutter_modified": {
+    "fg": {
+      "color": "#FFAA88",
+      "alpha": 255
+    },
+    "bg": {
+      "color": "#000000",
+      "alpha": 255
+    },
+    "fs": null
+  },
+  "editor_gutter_added": {
+    "fg": {
+      "color": "#789978",
+      "alpha": 255
+    },
+    "bg": {
+      "color": "#000000",
+      "alpha": 255
+    },
+    "fs": null
+  },
+  "editor_gutter_deleted": {
+    "fg": {
+      "color": "#D70000",
+      "alpha": 255
+    },
+    "bg": {
+      "color": "#000000",
+      "alpha": 255
+    },
+    "fs": null
+  },
+  "editor_widget": {
+    "fg": {
+      "color": "#EEEEEE",
+      "alpha": 255
+    },
+    "bg": {
+      "color": "#111111",
+      "alpha": 255
+    },
+    "fs": null
+  },
+  "editor_widget_border": {
+    "fg": {
+      "color": "#EEEEEE",
+      "alpha": 255
+    },
+    "bg": {
+      "color": "#242424",
+      "alpha": 255
+    },
+    "fs": null
+  },
+  "statusbar": {
+    "fg": {
+      "color": "#EEEEEE",
+      "alpha": 255
+    },
+    "bg": {
+      "color": "#000000",
+      "alpha": 255
+    },
+    "fs": null
+  },
+  "statusbar_hover": {
+    "fg": {
+      "color": "#EEEEEE",
+      "alpha": 255
+    },
+    "bg": {
+      "color": "#171717",
+      "alpha": 255
+    },
+    "fs": null
+  },
+  "scrollbar": {
+    "fg": {
+      "color": "#242424",
+      "alpha": 255
+    },
+    "bg": {
+      "color": "#000000",
+      "alpha": 0
+    },
+    "fs": null
+  },
+  "scrollbar_hover": {
+    "fg": {
+      "color": "#333333",
+      "alpha": 255
+    },
+    "bg": {
+      "color": "#000000",
+      "alpha": 0
+    },
+    "fs": null
+  },
+  "scrollbar_active": {
+    "fg": {
+      "color": "#333333",
+      "alpha": 255
+    },
+    "bg": {
+      "color": "#000000",
+      "alpha": 0
+    },
+    "fs": null
+  },
+  "sidebar": {
+    "fg": {
+      "color": "#EEEEEE",
+      "alpha": 255
+    },
+    "bg": {
+      "color": "#000000",
+      "alpha": 255
+    },
+    "fs": null
+  },
+  "panel": {
+    "fg": {
+      "color": "#EEEEEE",
+      "alpha": 255
+    },
+    "bg": {
+      "color": "#000000",
+      "alpha": 255
+    },
+    "fs": null
+  },
+  "input": {
+    "fg": {
+      "color": "#EEEEEE",
+      "alpha": 255
+    },
+    "bg": {
+      "color": "#111111",
+      "alpha": 255
+    },
+    "fs": null
+  },
+  "input_border": {
+    "fg": {
+      "color": "#EEEEEE",
+      "alpha": 255
+    },
+    "bg": {
+      "color": "#111111",
+      "alpha": 255
+    },
+    "fs": null
+  },
+  "input_placeholder": {
+    "fg": {
+      "color": "#666666",
+      "alpha": 255
+    },
+    "bg": {
+      "color": "#111111",
+      "alpha": 255
+    },
+    "fs": null
+  },
+  "input_option_active": {
+    "fg": {
+      "color": "#EEEEEE",
+      "alpha": 255
+    },
+    "bg": {
+      "color": "#333333",
+      "alpha": 255
+    },
+    "fs": null
+  },
+  "input_option_hover": {
+    "fg": {
+      "color": "#EEEEEE",
+      "alpha": 255
+    },
+    "bg": {
+      "color": "#171717",
+      "alpha": 255
+    },
+    "fs": null
+  },
+  "tab_active": {
+    "fg": {
+      "color": "#EEEEEE",
+      "alpha": 255
+    },
+    "bg": {
+      "color": "#111111",
+      "alpha": 255
+    },
+    "fs": null
+  },
+  "tab_inactive": {
+    "fg": {
+      "color": "#888888",
+      "alpha": 255
+    },
+    "bg": {
+      "color": "#000000",
+      "alpha": 255
+    },
+    "fs": null
+  },
+  "tab_selected": {
+    "fg": {
+      "color": "#EEEEEE",
+      "alpha": 255
+    },
+    "bg": {
+      "color": "#111111",
+      "alpha": 255
+    },
+    "fs": null
+  },
+  "tab_unfocused_active": {
+    "fg": {
+      "color": "#888888",
+      "alpha": 255
+    },
+    "bg": {
+      "color": "#111111",
+      "alpha": 255
+    },
+    "fs": null
+  },
+  "tab_unfocused_inactive": {
+    "fg": {
+      "color": "#4A4A4A",
+      "alpha": 255
+    },
+    "bg": {
+      "color": "#000000",
+      "alpha": 255
+    },
+    "fs": null
+  },
+  "ansi_black": {
+    "color": "#000000",
+    "alpha": 255
+  },
+  "ansi_red": {
+    "color": "#D8D8D8",
+    "alpha": 255
+  },
+  "ansi_green": {
+    "color": "#B8B8B8",
+    "alpha": 255
+  },
+  "ansi_yellow": {
+    "color": "#888888",
+    "alpha": 255
+  },
+  "ansi_blue": {
+    "color": "#EEEEEE",
+    "alpha": 255
+  },
+  "ansi_magenta": {
+    "color": "#D8D8D8",
+    "alpha": 255
+  },
+  "ansi_cyan": {
+    "color": "#B8B8B8",
+    "alpha": 255
+  },
+  "ansi_white": {
+    "color": "#EEEEEE",
+    "alpha": 255
+  },
+  "ansi_bright_black": {
+    "color": "#4A4A4A",
+    "alpha": 255
+  },
+  "ansi_bright_red": {
+    "color": "#FFFFFF",
+    "alpha": 255
+  },
+  "ansi_bright_green": {
+    "color": "#D8D8D8",
+    "alpha": 255
+  },
+  "ansi_bright_yellow": {
+    "color": "#B8B8B8",
+    "alpha": 255
+  },
+  "ansi_bright_blue": {
+    "color": "#FFFFFF",
+    "alpha": 255
+  },
+  "ansi_bright_magenta": {
+    "color": "#EEEEEE",
+    "alpha": 255
+  },
+  "ansi_bright_cyan": {
+    "color": "#D8D8D8",
+    "alpha": 255
+  },
+  "ansi_bright_white": {
+    "color": "#FFFFFF",
+    "alpha": 255
+  },
+  "ansi_palette": [
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      216,
+      216,
+      216
+    ],
+    [
+      184,
+      184,
+      184
+    ],
+    [
+      136,
+      136,
+      136
+    ],
+    [
+      238,
+      238,
+      238
+    ],
+    [
+      216,
+      216,
+      216
+    ],
+    [
+      184,
+      184,
+      184
+    ],
+    [
+      238,
+      238,
+      238
+    ],
+    [
+      74,
+      74,
+      74
+    ],
+    [
+      255,
+      255,
+      255
+    ],
+    [
+      216,
+      216,
+      216
+    ],
+    [
+      184,
+      184,
+      184
+    ],
+    [
+      255,
+      255,
+      255
+    ],
+    [
+      238,
+      238,
+      238
+    ],
+    [
+      216,
+      216,
+      216
+    ],
+    [
+      255,
+      255,
+      255
+    ]
+  ],
+  "tokens": [
+    {
+      "scope": "*link*",
+      "style": {
+        "fg": {
+          "color": "#888888",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": "underline"
+      }
+    },
+    {
+      "scope": "*uri*",
+      "style": {
+        "fg": {
+          "color": "#4A4A4A",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": "underline"
+      }
+    },
+    {
+      "scope": "*url*",
+      "style": {
+        "fg": {
+          "color": "#4A4A4A",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": "underline"
+      }
+    },
+    {
+      "scope": "JSXNested",
+      "style": {
+        "fg": {
+          "color": "#EEEEEE",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "comment",
+      "style": {
+        "fg": {
+          "color": "#7A7A7A",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": "italic"
+      }
+    },
+    {
+      "scope": "constant.character",
+      "style": {
+        "fg": {
+          "color": "#B8B8B8",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "constant.character.escape",
+      "style": {
+        "fg": {
+          "color": "#789978",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "constant.escape",
+      "style": {
+        "fg": {
+          "color": "#B8B8B8",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "constant.language",
+      "style": {
+        "fg": {
+          "color": "#B8B8B8",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "constant.language.boolean",
+      "style": {
+        "fg": {
+          "color": "#B8B8B8",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "constant.numeric",
+      "style": {
+        "fg": {
+          "color": "#B8B8B8",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "constant.other.color",
+      "style": {
+        "fg": {
+          "color": "#B8B8B8",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "constant.other.key",
+      "style": {
+        "fg": {
+          "color": "#B8B8B8",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "constant.other.object.key.js",
+      "style": {
+        "fg": {
+          "color": "#B8B8B8",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "constant.other.placeholder",
+      "style": {
+        "fg": {
+          "color": "#B8B8B8",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "constant.other.reference.link.markdown",
+      "style": {
+        "fg": {
+          "color": "#888888",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "constant.other.symbol",
+      "style": {
+        "fg": {
+          "color": "#B8B8B8",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "entity.name",
+      "style": {
+        "fg": {
+          "color": "#EEEEEE",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": "bold"
+      }
+    },
+    {
+      "scope": "entity.name.function",
+      "style": {
+        "fg": {
+          "color": "#FFFFFF",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "entity.name.function.js",
+      "style": {
+        "fg": {
+          "color": "#FFFFFF",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "entity.name.function.macro",
+      "style": {
+        "fg": {
+          "color": "#FFFFFF",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": "bold"
+      }
+    },
+    {
+      "scope": "entity.name.import.go",
+      "style": {
+        "fg": {
+          "color": "#EEEEEE",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": "bold"
+      }
+    },
+    {
+      "scope": "entity.name.method.js",
+      "style": {
+        "fg": {
+          "color": "#FFFFFF",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "entity.name.module.js",
+      "style": {
+        "fg": {
+          "color": "#EEEEEE",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": "bold"
+      }
+    },
+    {
+      "scope": "entity.name.namespace",
+      "style": {
+        "fg": {
+          "color": "#EEEEEE",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": "bold"
+      }
+    },
+    {
+      "scope": "entity.name.section.markdown",
+      "style": {
+        "fg": {
+          "color": "#666666",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "entity.name.tag",
+      "style": {
+        "fg": {
+          "color": "#666666",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "entity.name.tag.js",
+      "style": {
+        "fg": {
+          "color": "#666666",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "entity.name.type.module",
+      "style": {
+        "fg": {
+          "color": "#EEEEEE",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": "bold"
+      }
+    },
+    {
+      "scope": "entity.other.attribute-name",
+      "style": {
+        "fg": {
+          "color": "#666666",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "entity.other.attribute-name.class",
+      "style": {
+        "fg": {
+          "color": "#666666",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "entity.other.inherited-class",
+      "style": {
+        "fg": {
+          "color": "#EEEEEE",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": "bold"
+      }
+    },
+    {
+      "scope": "invalid",
+      "style": {
+        "fg": {
+          "color": "#D70000",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "invalid.illegal",
+      "style": {
+        "fg": {
+          "color": "#D70000",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "keyword.blade",
+      "style": {
+        "fg": {
+          "color": "#FFFFFF",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": "bold"
+      }
+    },
+    {
+      "scope": "keyword.control",
+      "style": {
+        "fg": {
+          "color": "#FFFFFF",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": "bold"
+      }
+    },
+    {
+      "scope": "keyword.control.conditional",
+      "style": {
+        "fg": {
+          "color": "#FFFFFF",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": "bold"
+      }
+    },
+    {
+      "scope": "keyword.control.flow",
+      "style": {
+        "fg": {
+          "color": "#FFFFFF",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": "bold"
+      }
+    },
+    {
+      "scope": "keyword.control.import",
+      "style": {
+        "fg": {
+          "color": "#FFFFFF",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": "bold"
+      }
+    },
+    {
+      "scope": "keyword.control.loop",
+      "style": {
+        "fg": {
+          "color": "#FFFFFF",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": "bold"
+      }
+    },
+    {
+      "scope": "keyword.control.trycatch",
+      "style": {
+        "fg": {
+          "color": "#FFFFFF",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": "bold"
+      }
+    },
+    {
+      "scope": "keyword.import",
+      "style": {
+        "fg": {
+          "color": "#FFFFFF",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": "bold"
+      }
+    },
+    {
+      "scope": "keyword.operator",
+      "style": {
+        "fg": {
+          "color": "#888888",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "keyword.operator.namespace",
+      "style": {
+        "fg": {
+          "color": "#FFFFFF",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": "bold"
+      }
+    },
+    {
+      "scope": "keyword.operator.type.annotation",
+      "style": {
+        "fg": {
+          "color": "#FFFFFF",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": "bold"
+      }
+    },
+    {
+      "scope": "keyword.other",
+      "style": {
+        "fg": {
+          "color": "#FFFFFF",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": "bold"
+      }
+    },
+    {
+      "scope": "keyword.other.definition.ini",
+      "style": {
+        "fg": {
+          "color": "#FFFFFF",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": "bold"
+      }
+    },
+    {
+      "scope": "keyword.other.special-method",
+      "style": {
+        "fg": {
+          "color": "#FFFFFF",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "keyword.other.substitution",
+      "style": {
+        "fg": {
+          "color": "#FFFFFF",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": "bold"
+      }
+    },
+    {
+      "scope": "keyword.other.template",
+      "style": {
+        "fg": {
+          "color": "#FFFFFF",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": "bold"
+      }
+    },
+    {
+      "scope": "keyword.other.unit",
+      "style": {
+        "fg": {
+          "color": "#888888",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "markdown.heading",
+      "style": {
+        "fg": {
+          "color": "#666666",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "markup.bold",
+      "style": {
+        "fg": {
+          "color": "#4A4A4A",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": "bold"
+      }
+    },
+    {
+      "scope": "markup.changed",
+      "style": {
+        "fg": {
+          "color": "#FFAA88",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "markup.deleted",
+      "style": {
+        "fg": {
+          "color": "#D70000",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "markup.heading",
+      "style": {
+        "fg": {
+          "color": "#666666",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "markup.heading.markdown",
+      "style": {
+        "fg": {
+          "color": "#666666",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "markup.inline.raw.markdown",
+      "style": {
+        "fg": {
+          "color": "#708090",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "markup.inline.raw.string",
+      "style": {
+        "fg": {
+          "color": "#CFCFCF",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "markup.inserted",
+      "style": {
+        "fg": {
+          "color": "#789978",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "markup.inserted.git_gutter",
+      "style": {
+        "fg": {
+          "color": "#789978",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "markup.italic",
+      "style": {
+        "fg": {
+          "color": "#4A4A4A",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": "bold"
+      }
+    },
+    {
+      "scope": "markup.quote",
+      "style": {
+        "fg": {
+          "color": "#7A7A7A",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": "italic"
+      }
+    },
+    {
+      "scope": "markup.raw.block",
+      "style": {
+        "fg": {
+          "color": "#708090",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "markup.raw.block.fenced.markdown",
+      "style": {
+        "fg": {
+          "color": "#EEEEEE",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "markup.table",
+      "style": {
+        "fg": {
+          "color": "#EEEEEE",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "markup.underline",
+      "style": {
+        "fg": {
+          "color": "#888888",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": "underline"
+      }
+    },
+    {
+      "scope": "meta.block",
+      "style": {
+        "fg": {
+          "color": "#EEEEEE",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "meta.brace",
+      "style": {
+        "fg": {
+          "color": "#888888",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "meta.class-method.js",
+      "style": {
+        "fg": {
+          "color": "#FFFFFF",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "meta.function-call",
+      "style": {
+        "fg": {
+          "color": "#FFFFFF",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "meta.group.braces.curly",
+      "style": {
+        "fg": {
+          "color": "#888888",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "meta.import",
+      "style": {
+        "fg": {
+          "color": "#FFFFFF",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": "bold"
+      }
+    },
+    {
+      "scope": "meta.jsx.children",
+      "style": {
+        "fg": {
+          "color": "#EEEEEE",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "meta.separator",
+      "style": {
+        "fg": {
+          "color": "#888888",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "meta.structure.dictionary.json",
+      "style": {
+        "fg": {
+          "color": "#B8B8B8",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "meta.structure.dictionary.value.json",
+      "style": {
+        "fg": {
+          "color": "#B8B8B8",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "meta.tag",
+      "style": {
+        "fg": {
+          "color": "#666666",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "meta.tag.sgml",
+      "style": {
+        "fg": {
+          "color": "#666666",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "meta.use.php",
+      "style": {
+        "fg": {
+          "color": "#EEEEEE",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": "bold"
+      }
+    },
+    {
+      "scope": "punctuation",
+      "style": {
+        "fg": {
+          "color": "#888888",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "punctuation.definition.blockquote.markdown",
+      "style": {
+        "fg": {
+          "color": "#4A4A4A",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "punctuation.definition.comment",
+      "style": {
+        "fg": {
+          "color": "#7A7A7A",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": "italic"
+      }
+    },
+    {
+      "scope": "punctuation.definition.fenced.markdown",
+      "style": {
+        "fg": {
+          "color": "#4A4A4A",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "punctuation.definition.list_item.markdown",
+      "style": {
+        "fg": {
+          "color": "#4A4A4A",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "punctuation.definition.raw.markdown",
+      "style": {
+        "fg": {
+          "color": "#708090",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "punctuation.definition.string",
+      "style": {
+        "fg": {
+          "color": "#CFCFCF",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "punctuation.definition.tag",
+      "style": {
+        "fg": {
+          "color": "#888888",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "punctuation.definition.tag.begin.html",
+      "style": {
+        "fg": {
+          "color": "#888888",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "punctuation.definition.tag.end.html",
+      "style": {
+        "fg": {
+          "color": "#888888",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "punctuation.definition.tag.html",
+      "style": {
+        "fg": {
+          "color": "#888888",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "punctuation.definition.tag.js",
+      "style": {
+        "fg": {
+          "color": "#888888",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "punctuation.section.class.end",
+      "style": {
+        "fg": {
+          "color": "#888888",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "punctuation.section.embedded",
+      "style": {
+        "fg": {
+          "color": "#888888",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "punctuation.separator.inheritance.php",
+      "style": {
+        "fg": {
+          "color": "#888888",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "source.css",
+      "style": {
+        "fg": {
+          "color": "#B8B8B8",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "source.js",
+      "style": {
+        "fg": {
+          "color": "#FFFFFF",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": "bold"
+      }
+    },
+    {
+      "scope": "source.json",
+      "style": {
+        "fg": {
+          "color": "#B8B8B8",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "source.less",
+      "style": {
+        "fg": {
+          "color": "#B8B8B8",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "source.postcss",
+      "style": {
+        "fg": {
+          "color": "#B8B8B8",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "source.sass",
+      "style": {
+        "fg": {
+          "color": "#708090",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "source.scss",
+      "style": {
+        "fg": {
+          "color": "#B8B8B8",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "source.stylus",
+      "style": {
+        "fg": {
+          "color": "#B8B8B8",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "storage.modifier",
+      "style": {
+        "fg": {
+          "color": "#FFFFFF",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": "bold"
+      }
+    },
+    {
+      "scope": "storage.type",
+      "style": {
+        "fg": {
+          "color": "#FFFFFF",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": "bold"
+      }
+    },
+    {
+      "scope": "string",
+      "style": {
+        "fg": {
+          "color": "#CFCFCF",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "string.other.link",
+      "style": {
+        "fg": {
+          "color": "#888888",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "string.other.link.description.title.markdown",
+      "style": {
+        "fg": {
+          "color": "#888888",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "string.other.link.title.markdown",
+      "style": {
+        "fg": {
+          "color": "#4A4A4A",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": "italic"
+      }
+    },
+    {
+      "scope": "string.regexp",
+      "style": {
+        "fg": {
+          "color": "#789978",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "string.unquoted.label.js",
+      "style": {
+        "fg": {
+          "color": "#CFCFCF",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "support.class",
+      "style": {
+        "fg": {
+          "color": "#EEEEEE",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": "bold"
+      }
+    },
+    {
+      "scope": "support.constant",
+      "style": {
+        "fg": {
+          "color": "#B8B8B8",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "support.function",
+      "style": {
+        "fg": {
+          "color": "#FFFFFF",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "support.other.namespace.php",
+      "style": {
+        "fg": {
+          "color": "#EEEEEE",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": "bold"
+      }
+    },
+    {
+      "scope": "support.other.namespace.use.php",
+      "style": {
+        "fg": {
+          "color": "#EEEEEE",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": "bold"
+      }
+    },
+    {
+      "scope": "support.other.variable",
+      "style": {
+        "fg": {
+          "color": "#D8D8D8",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "support.type",
+      "style": {
+        "fg": {
+          "color": "#EEEEEE",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": "bold"
+      }
+    },
+    {
+      "scope": "support.type.property-name",
+      "style": {
+        "fg": {
+          "color": "#666666",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "support.type.property-name.json",
+      "style": {
+        "fg": {
+          "color": "#B8B8B8",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "support.type.sys-types",
+      "style": {
+        "fg": {
+          "color": "#EEEEEE",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": "bold"
+      }
+    },
+    {
+      "scope": "tag.decorator.js",
+      "style": {
+        "fg": {
+          "color": "#FFFFFF",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": "bold"
+      }
+    },
+    {
+      "scope": "text.html",
+      "style": {
+        "fg": {
+          "color": "#EEEEEE",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "text.html.markdown",
+      "style": {
+        "fg": {
+          "color": "#708090",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "text.log",
+      "style": {
+        "fg": {
+          "color": "#EEEEEE",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "variable",
+      "style": {
+        "fg": {
+          "color": "#EEEEEE",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "variable.function",
+      "style": {
+        "fg": {
+          "color": "#FFFFFF",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "variable.function.constructor",
+      "style": {
+        "fg": {
+          "color": "#EEEEEE",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": "bold"
+      }
+    },
+    {
+      "scope": "variable.import.parameter.js",
+      "style": {
+        "fg": {
+          "color": "#FFFFFF",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": "bold"
+      }
+    },
+    {
+      "scope": "variable.language",
+      "style": {
+        "fg": {
+          "color": "#D8D8D8",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "variable.language.fenced.markdown",
+      "style": {
+        "fg": {
+          "color": "#4A4A4A",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "variable.other",
+      "style": {
+        "fg": {
+          "color": "#EEEEEE",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    },
+    {
+      "scope": "variable.other.class.js",
+      "style": {
+        "fg": {
+          "color": "#EEEEEE",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": "bold"
+      }
+    },
+    {
+      "scope": "variable.other.enummember",
+      "style": {
+        "fg": {
+          "color": "#EEEEEE",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": "bold"
+      }
+    },
+    {
+      "scope": "variable.other.property",
+      "style": {
+        "fg": {
+          "color": "#B8B8B8",
+          "alpha": 255
+        },
+        "bg": null,
+        "fs": null
+      }
+    }
+  ]
+}
