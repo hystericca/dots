@@ -48,7 +48,7 @@
     "theme": {
         "mode": "dark",
         "light": "Mina Light",
-        "dark": "Lowlight Dark",
+        "dark": "Mina Dark",
     },
     "lsp": {
         "ruff": {
@@ -67,6 +67,10 @@
         },
     },
     "languages": {
+        "Nix": {
+            "tab_size": 4,
+            "hard_tabs": false,
+        },
         "Python": {
             "language_servers": ["ty", "ruff", "!basedpyright"],
             "code_actions_on_format": {

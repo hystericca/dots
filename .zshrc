@@ -219,3 +219,8 @@ export PATH="$PATH:/Users/hystericca/Library/Python/3.14/bin"
 export PATH="$HOME/Library/Python/3.14/bin:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
 export RIPGREP_CONFIG_PATH="$HOME/.config/ripgrep/ripgreprc"
+
+# Homebrew C/C++ paths
+export CPATH="/opt/homebrew/include:/opt/homebrew/opt/raylib/include${CPATH:+:$CPATH}"
+export LIBRARY_PATH="/opt/homebrew/lib:/opt/homebrew/opt/raylib/lib${LIBRARY_PATH:+:$LIBRARY_PATH}"
+export PKG_CONFIG_PATH="/opt/homebrew/lib/pkgconfig:/opt/homebrew/opt/raylib/lib/pkgconfig${PKG_CONFIG_PATH:+:$PKG_CONFIG_PATH}"
