@@ -323,6 +323,7 @@
         "selection": "normal",
         "press": [
             ["<Esc>", ["cancel"], ["enter_mode", "normal"]],
+            ["<C-[>", ["cancel"], ["enter_mode", "normal"]],
             ["k", "select_up"],
             ["j", "select_down"],
 

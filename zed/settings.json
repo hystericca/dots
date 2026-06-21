@@ -7,6 +7,7 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+    "auto_update": true,
     "buffer_line_height": "comfortable",
     "indent_guides": {
         "enabled": true,
@@ -48,7 +49,7 @@
     "theme": {
         "mode": "dark",
         "light": "Mina Light",
-        "dark": "Mina Dark",
+        "dark": "GitHub Dark",
     },
     "lsp": {
         "ruff": {
@@ -65,17 +66,32 @@
                 "package_version": "7.0.0-dev.20260421.2",
             },
         },
+        "lua-language-server": {
+            "settings": {
+                "Lua": {
+                    "runtime": {
+                        "version": "LuaJIT",
+                    },
+                    "diagnostics": {
+                        "globals": ["vim"],
+                    },
+                    "workspace": {
+                        "checkThirdParty": false,
+                    },
+                },
+            },
+        },
     },
     "languages": {
         "Nix": {
             "tab_size": 4,
             "hard_tabs": false,
         },
+
         "Python": {
             "language_servers": ["ty", "ruff", "!basedpyright"],
             "code_actions_on_format": {
                 "source.organizeImports.ruff": true,
-                "source.fixAll.ruff": true,
             },
             "formatter": {
                 "language_server": {
@@ -110,18 +126,10 @@
             ],
             "tab_size": 4,
         },
-        "JSX": {
-            "language_servers": [
-                "tsgo",
-                "!vtsls",
-                "!typescript-language-server",
-                "...",
-            ],
-            "tab_size": 4,
-        },
     },
     "prettier": {
         "allowed": true,
         "tabWidth": 4,
+        "singleQuote": true,
     },
 }

@@ -224,3 +224,7 @@ export RIPGREP_CONFIG_PATH="$HOME/.config/ripgrep/ripgreprc"
 export CPATH="/opt/homebrew/include:/opt/homebrew/opt/raylib/include${CPATH:+:$CPATH}"
 export LIBRARY_PATH="/opt/homebrew/lib:/opt/homebrew/opt/raylib/lib${LIBRARY_PATH:+:$LIBRARY_PATH}"
 export PKG_CONFIG_PATH="/opt/homebrew/lib/pkgconfig:/opt/homebrew/opt/raylib/lib/pkgconfig${PKG_CONFIG_PATH:+:$PKG_CONFIG_PATH}"
+export PATH="/opt/uxn/bin:$PATH"
+
+# Vite+ bin (https://viteplus.dev)
+. "$HOME/.vite-plus/env"

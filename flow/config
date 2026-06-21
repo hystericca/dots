@@ -9,7 +9,7 @@
 # frame_rate 60
 # value type: positive integer
 
-theme "ayu-dark"
+theme "mina-lowlight"
 # default value: "ayu-mirage-bordered"
 # value type: quoted string
 

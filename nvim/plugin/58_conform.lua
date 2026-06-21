@@ -64,6 +64,10 @@ conform.setup({
         },
         biome = {
             args = biome_indent_args,
+            "--indent-style",
+            "space",
+            "--indent-width",
+            "4",
         },
     },
 })
