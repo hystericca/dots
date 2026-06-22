@@ -47,8 +47,3 @@ end
 
 vim.api.nvim_create_user_command("TermToggle", toggle_terminal, {})
 map("n", "<M-v>", toggle_terminal, { desc = "Terminal toggle" })
-
-local ok, builtin = pcall(require, "telescope.builtin")
-if not ok then
-    return
-end

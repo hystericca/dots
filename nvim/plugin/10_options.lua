@@ -55,6 +55,7 @@ vim.opt.writebackup = false
 
 -- completion
 vim.opt.completeopt = { "menu", "menuone", "noselect", "fuzzy", "popup" }
+vim.o.autocomplete = true
 
 -- mac clipboard
 vim.opt.clipboard = "unnamedplus"
