@@ -5,7 +5,7 @@ vim.lsp.enable("clangd")
 vim.diagnostic.config({
     signs = true,
     underline = true,
-    update_in_insert = true,
+    update_in_insert = false,
     virtual_text = true,
     severity_sort = true,
 })
@@ -79,11 +79,6 @@ vim.lsp.config("lua_ls", {
             },
         },
     },
-})
-
-vim.lsp.enable({
-    "lua_ls",
-    "clangd",
 })
 
 vim.o.pumheight = 5
