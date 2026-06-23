@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =6
+let g:netrw_dirhistcnt =7
+let g:netrw_dirhist_7='/Users/viktor/Developer/flake/home/programs/config'
 let g:netrw_dirhist_6='/Users/viktor/Developer/cbook/ch1'
 let g:netrw_dirhist_5='/Users/viktor/Developer/mika/mika'
 let g:netrw_dirhist_4='/Users/viktor/Developer/mika'
