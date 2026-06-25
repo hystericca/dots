@@ -46,6 +46,17 @@ vim.opt.tabstop = 4
 vim.opt.softtabstop = 4
 vim.opt.smartindent = true
 
+-- 8-character tabs for C/C++ files
+vim.api.nvim_create_autocmd("FileType", {
+    pattern = { "c", "cpp", "objc", "objcpp" },
+    callback = function()
+        vim.opt_local.expandtab = false
+        vim.opt_local.shiftwidth = 8
+        vim.opt_local.tabstop = 8
+        vim.opt_local.softtabstop = 8
+    end,
+})
+
 -- search
 vim.opt.ignorecase = true
 vim.opt.smartcase = true
@@ -64,3 +75,11 @@ vim.o.autocomplete = true
 
 -- mac clipboard
 vim.opt.clipboard = "unnamedplus"
+
+-- maybe maybe
+vim.api.nvim_create_autocmd("FileType", {
+    pattern = { "c", "cpp", "objc", "objcpp", "zig" },
+    callback = function()
+        pcall(vim.treesitter.start)
+    end,
+})

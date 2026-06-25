@@ -1,5 +1,3 @@
--- ~/.config/nvim/plugin/70_statusline.lua
-
 local M = {}
 
 local modes = {

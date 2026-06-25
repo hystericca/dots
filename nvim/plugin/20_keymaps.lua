@@ -1,9 +1,7 @@
 local map = vim.keymap.set
 
-map("n", "<leader>b", "<cmd>enew<CR>", { desc = "Buffer new" })
 map("n", "<Tab>", "<cmd>bnext<CR>", { desc = "Buffer next" })
 map("n", "<leader>x", "<cmd>bdelete<CR>", { desc = "Buffer close" })
-map("n", "<leader>gt", "<cmd>ThemePick<CR>", { desc = "Theme picker" })
 
 local term_group = vim.api.nvim_create_augroup("TerminalKeymaps", { clear = true })
 local terminal = { buf = nil, win = nil }

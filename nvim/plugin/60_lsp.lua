@@ -7,7 +7,6 @@ vim.lsp.config.clangd = {
 }
 vim.lsp.enable("clangd")
 
-
 vim.diagnostic.config({
     signs = true,
     underline = true,
