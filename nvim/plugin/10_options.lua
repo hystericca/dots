@@ -83,3 +83,18 @@ vim.api.nvim_create_autocmd("FileType", {
         pcall(vim.treesitter.start)
     end,
 })
+
+-- Native search & find options (path, wildignore, grepprg)
+vim.opt.path:append("**")
+vim.opt.wildignore:append({ "**/node_modules/*", "**/.git/*", "**/build/*", "**/dist/*", "**/target/*" })
+
+if vim.fn.executable("rg") == 1 then
+    vim.opt.grepprg = "rg --vimgrep --smart-case --no-heading"
+    vim.opt.grepformat = "%f:%l:%c:%m"
+end
+
+-- Open Quickfix window automatically on grep
+vim.api.nvim_create_autocmd("QuickFixCmdPost", {
+    pattern = "grep",
+    command = "cwindow",
+})
