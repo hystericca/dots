@@ -1,10 +1,15 @@
 vim.g.mapleader = " "
 vim.g.maplocalleader = " "
 
--- autoread
 vim.opt.autoread = true
-vim.api.nvim_create_autocmd({ "FocusGained", "BufEnter", "CursorHold", "CursorHoldI" }, {
-    command = "checktime",
+
+-- highlight on yank
+vim.api.nvim_create_autocmd("TextYankPost", {
+    desc = "Highlight yanked text",
+    group = vim.api.nvim_create_augroup("highlight-yank", { clear = true }),
+    callback = function()
+        vim.hl.hl_op({ higroup = "Visual", timeout = 300 })
+    end,
 })
 
 -- ui

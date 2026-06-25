@@ -1,6 +1,12 @@
 local map = vim.keymap.set
 
+vim.lsp.config.clangd = {
+    cmd = { "clangd" },
+    filetypes = { "c", "cpp", "objc", "objcpp", "cuda", "proto" },
+    root_markers = { "compile_commands.json", "compile_flags.txt", ".git" },
+}
 vim.lsp.enable("clangd")
+
 
 vim.diagnostic.config({
     signs = true,
@@ -56,7 +62,10 @@ vim.api.nvim_create_autocmd("LspAttach", {
     end,
 })
 
-vim.lsp.config("lua_ls", {
+vim.lsp.config.lua_ls = {
+    cmd = { "lua-language-server" },
+    filetypes = { "lua" },
+    root_markers = { ".git", "init.lua" },
     settings = {
         Lua = {
             runtime = {
@@ -79,6 +88,7 @@ vim.lsp.config("lua_ls", {
             },
         },
     },
-})
+}
+vim.lsp.enable("lua_ls")
 
 vim.o.pumheight = 5
