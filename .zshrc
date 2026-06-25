@@ -228,3 +228,6 @@ export PATH="/opt/uxn/bin:$PATH"
 
 # Vite+ bin (https://viteplus.dev)
 . "$HOME/.vite-plus/env"
+
+# Added by Antigravity IDE
+export PATH="/Users/viktor/.antigravity-ide/antigravity-ide/bin:$PATH"
