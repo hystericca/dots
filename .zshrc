@@ -10,11 +10,8 @@ plugins=(
 )
 
 export COLORTERM=truecolor
-export EDITOR=nvim
-export VISUAL=nvim
-export FZF_DEFAULT_OPTS='--height=40% --layout=reverse --border=sharp --prompt="❯ " --pointer=">" --marker="+" --color=fg:#d8d8d8,bg:#000000,hl:#ffffff,fg+:#ffffff,bg+:#111111,hl+:#ffffff,info:#888888,prompt:#ffffff,pointer:#ffffff,marker:#b8b8b8,spinner:#888888,header:#666666,border:#4a4a4a,gutter:#000000'
-export FZF_DEFAULT_COMMAND='rg --files --hidden --follow --glob "!.git/*"'
-export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
+export EDITOR=vim
+export VISUAL=vim
 
 typeset -U fpath path PATH
 
@@ -78,9 +75,9 @@ fi
 
 v() {
   if (( $# == 0 )); then
-    nvim .
+    vim .
   else
-    nvim "$@"
+    vim "$@"
   fi
 }
 
@@ -229,5 +226,3 @@ export PATH="/opt/uxn/bin:$PATH"
 # Vite+ bin (https://viteplus.dev)
 . "$HOME/.vite-plus/env"
 
-# Added by Antigravity IDE
-export PATH="/Users/viktor/.antigravity-ide/antigravity-ide/bin:$PATH"

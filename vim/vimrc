@@ -50,11 +50,12 @@ set clipboard=unnamed
 let mapleader = "\<space>"
 
 nnoremap <C-p> :FZF<CR>
+nnoremap <C-l> :Lines<CR>
+
 nnoremap <leader>b :Buffers<CR>
-nnoremap <leader>l :Lines<CR>
 nnoremap <leader>h :History:<CR>
 
-nnoremap \\ :noh<cr> 
+nnoremap \\ :noh<CR>
 nnoremap <silent> <F5> :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar>:nohl<CR>
 nnoremap Y y$
 nnoremap cc :center<cr>
@@ -106,3 +107,8 @@ highlight CursorLine   cterm=NONE ctermbg=0  ctermfg=NONE
 highlight CursorLineNr cterm=bold ctermfg=15 ctermbg=NONE
 highlight Visual       cterm=reverse ctermfg=NONE ctermbg=NONE
 highlight ColorColumn  ctermbg=0 guibg=#111111
+" Strip the white bar and make the active statusline blend into the background
+highlight StatusLine   cterm=NONE ctermfg=8 ctermbg=NONE
+
+" Style the statusline of inactive window splits so they look even more muted
+highlight StatusLineNC cterm=NONE ctermfg=0 ctermbg=NONE
