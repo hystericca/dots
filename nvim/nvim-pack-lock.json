@@ -20,6 +20,10 @@
       "rev": "8c1f75f8ddd8c9f75d07ed2ab5718d2c3cb65a66",
       "src": "https://github.com/nvim-mini/mini.pick"
     },
+    "mini.surround": {
+      "rev": "a2f644f3759edd3d3f8b6a6d55378408bfe6d290",
+      "src": "https://github.com/nvim-mini/mini.surround"
+    },
     "oil.nvim": {
       "rev": "b73018b75affd13fa38e2fc94ef753b465f770d7",
       "src": "https://github.com/stevearc/oil.nvim"

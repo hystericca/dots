@@ -49,7 +49,7 @@
     "theme": {
         "mode": "dark",
         "light": "Mina Light",
-        "dark": "GitHub Dark",
+        "dark": "Mina Dark",
     },
     "lsp": {
         "ruff": {
