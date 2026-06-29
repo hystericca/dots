@@ -2,52 +2,19 @@ background = #000000
 bold-color = bright
 cursor-color = #c9d1d9
 cursor-text = #0d1117
-foreground = #c9d1d9
+foreground = #ffffff
 selection-background = #1f6feb
 selection-foreground = #ffffff
 
-# ==========================================================
-# GHOSTTY MASTER DIRECT MAP (EMPTY .VIMRC FALLBACKS)
-# ==========================================================
 
 palette = 0=#161b22
 palette = 1=#ff7b72
-
-# ANSI 2: Custom type structures (Vim Type Green hook). 
-# Set to GitHub Purple.
 palette = 2=#d2a8ff
-
-# ANSI 3: Structural Statements: if, return, for (Vim Statement Yellow hook).
-# Set to GitHub Red.
 palette = 3=#ff7b72
-
 palette = 4=#79c0ff
-
-# ANSI 5: Strings and Include brackets (Vim Constant Magenta hook).
-# Set to GitHub Light Blue.
 palette = 5=#a5d6ff
-
-# ANSI 6: Comments (Vim Comment Cyan hook).
-# Set to GitHub's muted low-opacity structural gray.
 palette = 6=#8b949e
-
 palette = 7=#c9d1d9
-
-# ==========================================================
-# 256-COLOR TERMINAL INTERCEPT HOOKS
-# ==========================================================
-
-# Fix #include / #define directives
 palette = 14=#ff7b72
-palette = 81=#ff7b72
-
-# Fix 'int', 'char', primitive data variables
-palette = 121=#ff7b72
-
-# Fix deep conditional lookups
-palette = 229=#ff7b72
-
-# Fix string sequences
-palette = 224=#a5d6ff
 
 palette-generate = false

@@ -1,13 +1,10 @@
-theme = Mina Lowlight
+theme = Mina
 font-family = JetBrainsMono Nerd Font Mono
 font-size = 22
 font-thicken = false
 font-thicken-strength = 60
 
-macos-titlebar-style = tabs
 macos-option-as-alt = left
-macos-icon = custom
-macos-custom-icon = ~/.config/ghostty/ayu-dark.icns
 
 auto-update = download
 auto-update-channel = tip

@@ -9,7 +9,6 @@ plugins=(
   history-substring-search
 )
 
-export COLORTERM=truecolor
 export EDITOR=vim
 export VISUAL=vim
 
@@ -75,9 +74,9 @@ fi
 
 v() {
   if (( $# == 0 )); then
-    vim .
+    nvim .
   else
-    vim "$@"
+    nvim "$@"
   fi
 }
 
@@ -226,3 +225,5 @@ export PATH="/opt/uxn/bin:$PATH"
 # Vite+ bin (https://viteplus.dev)
 . "$HOME/.vite-plus/env"
 
+export PATH="/opt/homebrew/opt/libressl/bin:$PATH"
+export PATH="/opt/homebrew/opt/ncurses/bin:$PATH"
