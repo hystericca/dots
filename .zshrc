@@ -227,3 +227,5 @@ export PATH="/opt/uxn/bin:$PATH"
 
 export PATH="/opt/homebrew/opt/libressl/bin:$PATH"
 export PATH="/opt/homebrew/opt/ncurses/bin:$PATH"
+export PATH="/opt/homebrew/bin:$PATH"
+EMSDK_QUIET=1

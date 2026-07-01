@@ -20,5 +20,5 @@ oil.setup({
     },
 })
 
-vim.keymap.set("n", "-", "<cmd>Oil<CR>", { desc = "Open parent directory" })
+vim.keymap.set("n", "-", "<cmd>Oil<CR>", { desc = "open parent directory" })
 vim.keymap.set("n", "<leader>e", "<cmd>Oil<CR>", { desc = "Open Oil" })
